@@ -1,0 +1,14 @@
+D:\STUDY\C-\Metanit\Metanit\bin\Debug\net8.0\Metanit.exe
+D:\STUDY\C-\Metanit\Metanit\bin\Debug\net8.0\Metanit.deps.json
+D:\STUDY\C-\Metanit\Metanit\bin\Debug\net8.0\Metanit.runtimeconfig.json
+D:\STUDY\C-\Metanit\Metanit\bin\Debug\net8.0\Metanit.dll
+D:\STUDY\C-\Metanit\Metanit\bin\Debug\net8.0\Metanit.pdb
+D:\STUDY\C-\Metanit\Metanit\obj\Debug\net8.0\Metanit.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDY\C-\Metanit\Metanit\obj\Debug\net8.0\Metanit.AssemblyInfoInputs.cache
+D:\STUDY\C-\Metanit\Metanit\obj\Debug\net8.0\Metanit.AssemblyInfo.cs
+D:\STUDY\C-\Metanit\Metanit\obj\Debug\net8.0\Metanit.csproj.CoreCompileInputs.cache
+D:\STUDY\C-\Metanit\Metanit\obj\Debug\net8.0\Metanit.dll
+D:\STUDY\C-\Metanit\Metanit\obj\Debug\net8.0\refint\Metanit.dll
+D:\STUDY\C-\Metanit\Metanit\obj\Debug\net8.0\Metanit.pdb
+D:\STUDY\C-\Metanit\Metanit\obj\Debug\net8.0\Metanit.genruntimeconfig.cache
+D:\STUDY\C-\Metanit\Metanit\obj\Debug\net8.0\ref\Metanit.dll
