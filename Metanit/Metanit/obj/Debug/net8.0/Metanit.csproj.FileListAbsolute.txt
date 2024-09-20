@@ -12,3 +12,4 @@ D:\STUDY\C-\Metanit\Metanit\obj\Debug\net8.0\refint\Metanit.dll
 D:\STUDY\C-\Metanit\Metanit\obj\Debug\net8.0\Metanit.pdb
 D:\STUDY\C-\Metanit\Metanit\obj\Debug\net8.0\Metanit.genruntimeconfig.cache
 D:\STUDY\C-\Metanit\Metanit\obj\Debug\net8.0\ref\Metanit.dll
+D:\Study\C-\Metanit\Metanit\obj\Debug\net8.0\Metanit.sourcelink.json

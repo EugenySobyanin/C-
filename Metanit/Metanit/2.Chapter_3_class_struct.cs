@@ -24,6 +24,11 @@ Song obj6 = new Song ();
 obj5.Print();
 obj6.Print();
 
+Food obj7 = new Food("Пицца", 12); // пример работы деконструктора
+(string t, int c) = obj7;
+(_, int c2) = obj7;
+Console.WriteLine($"{t} - {c} - {c2}");
+
 // Классы и объекты_____________________________________________________________________________________________________________________________________________________________
 
 // Пример реализации простого класса
@@ -127,5 +132,16 @@ class Food
     public string title;
     public int coast;
 
+    public Food(string title, int coast)
+    {
+        this.title = title;
+        this.coast = coast;
+    }
+
+    public void Deconstruct(out string Title, out int Coast)
+    {
+        Title = title;
+        Coast = coast;
+    }
 
 }
