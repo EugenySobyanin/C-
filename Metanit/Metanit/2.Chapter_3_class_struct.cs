@@ -87,10 +87,11 @@ class Person
 
 // Первичные конструкторы
 // - это добавление параметров к определению класса
+//  За кадром для каждого параметра первичного конструктора в классе создается приватное поле, которое хранит значение параметра
 
 public class Music(string title, string author)
 {
-    public Music(string title) : this(title, "Бетховен")
+    public Music(string title) : this(title, "Бетховен") // конструктор вызывает первичный конструктор
     { }
     public void Print() => Console.WriteLine($"{title} - {author}");
 }
@@ -145,3 +146,6 @@ class Food
     }
 
 }
+
+
+// 
