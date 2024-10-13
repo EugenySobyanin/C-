@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Metanit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3439e9fe624ffefe0c58b6338a9f8658ed6cbc91")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18c61a480df331bd293697892ba2b0960b44e1a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Metanit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Metanit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
