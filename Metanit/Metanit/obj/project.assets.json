@@ -8,7 +8,7 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\SABEN_MUSIC\\.nuget\\packages\\": {}
+    "C:\\Users\\easob\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,11 +16,11 @@
       "projectUniqueName": "D:\\Study\\C-\\Metanit\\Metanit\\Metanit.csproj",
       "projectName": "Metanit",
       "projectPath": "D:\\Study\\C-\\Metanit\\Metanit\\Metanit.csproj",
-      "packagesPath": "C:\\Users\\SABEN_MUSIC\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\easob\\.nuget\\packages\\",
       "outputPath": "D:\\Study\\C-\\Metanit\\Metanit\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SABEN_MUSIC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\easob\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -18,8 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +44,7 @@
               "RelativeDocumentMoniker": "Metanit\\2.Chapter_3_class_struct.cs",
               "ToolTip": "D:\\Study\\C-\\Metanit\\Metanit\\2.Chapter_3_class_struct.cs",
               "RelativeToolTip": "Metanit\\2.Chapter_3_class_struct.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAQwJYAAAADAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAwJYAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T07:24:29.638Z",
               "EditorCaption": ""
