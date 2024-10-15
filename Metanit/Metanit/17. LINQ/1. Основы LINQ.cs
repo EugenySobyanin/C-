@@ -8,7 +8,15 @@ namespace Metanit._17._LINQ
 {
     public class BaseLINQ
     {
-        Console.WriteLine("");
+        
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Лох");
+        }
     }
 }
 
