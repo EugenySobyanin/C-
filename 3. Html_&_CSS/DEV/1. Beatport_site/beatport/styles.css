@@ -1,0 +1,67 @@
+body {
+    background-color: gray;
+    margin: 0px;
+}
+
+#header {
+    color: white;
+    background-color: black;
+    height: 10%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: sans-serif;   
+}
+
+.logo-header {
+    width: 50px; /* Устанавливаем размер иконки */
+    height: auto; /* Сохраняем пропорции */
+    /* margin-right: 10px; */
+}
+
+#logo-header {
+    display: flex;
+    column-gap: 10px;
+}
+
+#nav-item {
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+#nav-ul {
+    list-style-type: none;
+    display: flex;
+    /* justify-content: space-between; */
+    column-gap: 15px;
+}
+
+#search-field {
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.input-header {
+    width: 350px;
+    height: 5px;
+    padding: 10px;   /* Внутренние отступы */
+    margin: 15px 5px 15px 10px;      /* Внешние отступы */
+    /* border: 2px solid #ccc;  Рамка */
+    border-radius: 5px;      /* Закругление углов */
+    background-color: #303030; /* Цвет фона */
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /*Тень*/
+    font-size: 14px;
+}
+
+.input-header::placeholder{
+    color: #C2C2C2;;
+}
+
+.header-block{
+    /* border: 2px solid white; */
+}
