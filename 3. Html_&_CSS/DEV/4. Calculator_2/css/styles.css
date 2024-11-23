@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+button {
+    height: 50px;
+    width: 78px;
+    background-color: #4b4d4b;
+    /* border-radius: 2px; */
+}
+
+input {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: auto;
+    font-size: 25px;
+}
+
+.main-window {
+    width: auto;
+    max-width: 315px;
+    background-color: black;
+}
+
+.math-actions {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+.border {
+    border: 2px solid black;
+}

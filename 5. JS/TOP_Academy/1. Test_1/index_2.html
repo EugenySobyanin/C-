@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 5000px;
+        }
+
+        #div-1 {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="button-1">Button_1</button>
+    <div id="div-1">Содежимое div-1</div>
+
+
+    <script>
+        // Тестовый пример
+        // document.querySelector('button').addEventListener('click', function(){
+        //     window.scrollTo({
+        //           top: document.body.scrollHeight,
+        //           behavior: 'smooth'
+        //     });
+        // });
+
+        // Задача 1
+        function toggleDiv(div_id){
+            const div = document.getElementById(div_id);
+            if (div.style.display === "none" || div.style.display === "") {
+                div.style.display = "block"; // Показываем див
+            } else {
+                div.style.display = "none"; // Скрываем див
+            }
+        }
+        document.getElementById("button-1").addEventListener("click", function() {
+            toggleDiv("div-1");
+        });
+    </script>
+</body>
+</html>
