@@ -137,3 +137,8 @@ input {
     justify-content: space-around;
     align-items: baseline;
 }
+
+#message_block {
+    font-size: 20px;
+    color: red;
+}

@@ -25,20 +25,23 @@
         </div>
       </header>
       <div class="registration-form">
-        <form method="post" action="">
+        
+        <form method="post" name="autharization">
+          <div id="message_block"></div>
           <div class="form-group">
             <label>Username</label>
-            <input type="text">
+            <input type="text" class="username" name="username">
           </div>
           <div class="form-group">
             <label>Пароль</label>
-            <input type="password">
+            <input type="password" class="password" name="password">
           </div>
           <div class="form-auth-group">
-            <button class="button-auth" type="submit">Войти</button>
+            <input type="submit" value="Войти" class="button-auth" name="button_auth">
             <a href="registration_form.html"><b>Зарегистрироваться</b></a>
           </div>
         </form>
       </div>
+  <script src="authorization.js"></script>
 </body>
 </html>

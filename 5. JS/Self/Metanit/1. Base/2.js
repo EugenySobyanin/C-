@@ -85,4 +85,18 @@ function select_2(num){
 let action_2 = select_2(1);
 action_2();
 
+// Стрелочные функции
+
+// Обычный пример 
+const print = (x, y) => `Sum - ${x + y}`;
+document.write(print(99, 99));
+
+// Пример возврата объекта из стрелочной функции
+let user = (Username, Age) => ({username: Username, age: Age});
+
+let user_1 = user("Tom", 25);
+let user_2 = user("John", 23);
+
+console.log(user_1.username, user_1.age);
+console.log(user_2.username, user_2.age);
 

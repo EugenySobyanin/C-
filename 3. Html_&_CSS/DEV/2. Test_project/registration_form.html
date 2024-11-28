@@ -25,36 +25,38 @@
         </div>
       </header>
       <div class="registration-form">
-        <form method="post" action="">
+        <form method="post" name="registration">
+          <div id="message_block"></div>
           <h2>Регистрация</h2>
           <div class="form-group">
             <label>Username</label>
-            <input type="text">
+            <input type="text" name="username">
           </div>
           <div class="form-group">
             <label>Имя</label>
-            <input type="text">
+            <input type="text" name="name">
           </div>
           <div class="form-group">
             <label>Фамилия</label>
-            <input type="text">
+            <input type="text" name="last_name">
           </div>
           <div class="form-group">
             <label>Email</label>
-            <input type="email">
+            <input type="email" name="email">
           </div>
           <div class="form-group">
             <label>Пароль</label>
-            <input type="password">
+            <input type="password" name="password">
           </div>
           <div class="form-group">
             <label>Повторите пароль</label>
-            <input type="password">
+            <input type="password" name="second_password">
           </div>
           <div class="form-group">
-            <button class="button-form" type="submit">Зарегистрироваться</button>
+            <button class="button-form" type="submit" name="button_registration">Зарегистрироваться</button>
           </div> 
         </form>
       </div>
+  <script src="registration.js"></script>
 </body>
 </html>
