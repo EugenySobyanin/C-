@@ -7,26 +7,27 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-  <form id="auth-form">
+  <form id="auth-form" method="GET">
     <div id="main-block">
       <p id="auth-header">Авторизация</p>
       <div id="inputs">
         <div class="input-block">
-          <p>Username</p>
-          <input type="text">
+          <p class="form-p">Username</p>
+          <input type="text" class="form-input">
         </div>
         <div class="input-block">
-          <p>Password</p>
-          <input type="text">
+          <p class="form-p">Password</p>
+          <input type="text" class="form-input">
         </div>
         <div class="input-block">
           <input class="submit-button" type="submit" value="Войти">
-          <a href="registration.html">Зарегистрироваться</a>
+          <a href="registration.html" class="link">Зарегистрироваться</a>
         </div>
       </div>
     </div>
 
   </form>
-    
+  
+  <script src="auth.js"></script>  
 </body>
 </html>
