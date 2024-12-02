@@ -6,6 +6,7 @@ let submit_button = document.getElementsByClassName("submit-button")[0];
 
 submit_button.onclick = function(event){
     event.preventDefault();
+    window.location.href = "index.html";
 
 }
 
