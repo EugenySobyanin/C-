@@ -59,7 +59,8 @@ body {
 }
 
 .submit-button:focus {
-    border: 5px solid white;
+    color: greenyellow;
+    border: 5px solid greenyellow;
     font-size: 20px;
 }
 
@@ -83,7 +84,7 @@ body {
 
 .link {
     font-size: 24px;
-    color: palevioletred;
+    color: greenyellow;
 }
 
 .link:hover {
