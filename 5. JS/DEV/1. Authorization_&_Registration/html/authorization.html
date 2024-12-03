@@ -11,19 +11,18 @@
     <!-- Главное окно авторизации -->
     <div id="main-block">
       <p id="auth-header">Авторизация</p>
-      <div class="warning"></div>
       <!-- Контейнер с инпутами -->
       <div id="inputs">
-        <div class="warning"></div>
         <!-- Блок для ввода username -->
         <div class="input-block">
           <p class="form-p">Username</p>
           <input type="text" class="form-input" name="username_input" required>
         </div>
+        <div id="username-warning" class="warning"></div>
         <!-- Блок для ввода пароля -->
         <div class="input-block">
           <p class="form-p">Password</p>
-          <input type="text" class="form-input" name="password_input">
+          <input type="password" class="form-input" name="password_input" required>
         </div>
         <!-- Блок для кнопки и ссылки -->
         <div class="input-block">

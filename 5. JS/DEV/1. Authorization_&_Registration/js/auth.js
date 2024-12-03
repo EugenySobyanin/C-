@@ -1,13 +1,25 @@
 let form = document.forms["auth-form"]; // получили форму по ее name
 // Для примера
-let username_input = document.auth-form.username_input; // получение input
+//let username_input = document.auth-form.username_input; // получение input
+let username_input = form.elements["username_input"];
 let password_input = form.elements["password_input"]; // получение input другим способом
 let submit_button = document.getElementsByClassName("submit-button")[0];
+let username_warning = document.getElementById("username-warning");
+
+console.log(username_input.value);
+
+username_input.addEventListener("change", validateUsername);
 
 submit_button.onclick = function(event){
-    event.preventDefault();
+    // event.preventDefault();
     window.location.href = "index.html";
+}
 
+function validateUsername(){
+    if (!username_input.validity.valid){
+        username_warning.textContent = username_input.validationMessage;
+        username_input.style.border = "red";
+    }
 }
 
 // let inputs = document.querySelectorAll(".form-input");
