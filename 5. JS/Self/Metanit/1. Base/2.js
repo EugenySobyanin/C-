@@ -100,5 +100,29 @@ let user_2 = user("John", 23);
 console.log(user_1.username, user_1.age);
 console.log(user_2.username, user_2.age);
 
+// Области видимости
+// в блоке кода - var переопрделяет глобальную переменную, let создает новую переменную
+var a = "Суп";
+let b = "Каша";
+c = "Пример объявления глобальной переменной";
 
+{
+    var a = "Больше не суп";
+    let b = "Больше не каша";
+}
+console.log(a, b);
 
+// Замыкания
+// Простейший пример замыкания
+function outer(){
+    let x = 5;
+    function inner(){
+        x++;
+        console.log(x);
+    }
+    return inner;
+}
+let fx = outer();
+fx();
+fx();
+fx();
