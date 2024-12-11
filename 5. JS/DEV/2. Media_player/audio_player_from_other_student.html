@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кастомный Аудиоплеер</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .player {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            width: 400px;
+            text-align: center;
+        }
+        .controls {
+            margin: 15px 0;
+        }
+        button {
+            padding: 10px 15px;
+            margin: 0 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        input[type="range"] {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="player">
+    <h2>Мой Аудиоплеер</h2>
+    <audio id="audio" src="audio/SpongeBob_SquarePants_Drunken_Sailor_Squeaky_Boots-648225.mp3"></audio>
+    <div class="controls">
+        <button id="play">Воспроизвести</button>
+        <button id="pause">Пауза</button>
+    </div>
+    <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+    <label for="volume">Громкость</label>
+</div>
+
+<script>
+    const audio = document.getElementById('audio');
+    const playButton = document.getElementById('play');
+    const pauseButton = document.getElementById('pause');
+    const volumeControl = document.getElementById('volume');
+
+    playButton.addEventListener('click', () => {
+        audio.play();
+    });
+
+    pauseButton.addEventListener('click', () => {
+        audio.pause();
+    });
+
+    volumeControl.addEventListener('input', (event) => {
+        audio.volume = event.target.value;
+    });
+</script>
+
+</body>
+</html>
