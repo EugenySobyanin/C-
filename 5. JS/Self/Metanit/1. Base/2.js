@@ -100,3 +100,4 @@ let user_2 = user("John", 23);
 console.log(user_1.username, user_1.age);
 console.log(user_2.username, user_2.age);
 
+
