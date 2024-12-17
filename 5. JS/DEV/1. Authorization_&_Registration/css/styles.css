@@ -2,6 +2,7 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
+    padding-top:150px;
     background-color: gray;
 }
 
@@ -59,7 +60,8 @@ body {
 }
 
 .submit-button:focus {
-    border: 5px solid white;
+    color: greenyellow;
+    border: 5px solid green;
     font-size: 20px;
 }
 
@@ -72,8 +74,16 @@ body {
 }
 
 .form-input:focus {
-    border: 4px solid greenyellow;
+    border: 4px solid green;
 }
+
+/* .form-input:invalid {
+    border: 2px solid red;
+}
+
+.form-input:valid {
+    border: 2px solid green;
+} */
 
 .input-block {
     display: flex;
@@ -83,7 +93,7 @@ body {
 
 .link {
     font-size: 24px;
-    color: palevioletred;
+    color: green;
 }
 
 .link:hover {
@@ -91,5 +101,13 @@ body {
 }
 
 .link:active {
-    color: greenyellow;
+    color: green;
+}
+
+#username-warning {
+    text-align: center;
+}
+
+.warning {
+    color: red;
 }

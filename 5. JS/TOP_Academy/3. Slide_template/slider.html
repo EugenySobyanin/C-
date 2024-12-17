@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+		body, html {
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow-x: hidden;
+
+}
+
+.slider {
+
+    position: relative;
+
+    max-width: 100%;
+
+    height: 500px;
+
+    overflow: hidden;
+
+}
+
+.slides {
+
+    display: flex;
+
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.slide {
+
+    min-width: 100%;
+
+    height: 500px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 2em;
+
+    color: white;
+
+}
+
+button {
+
+    position: absolute;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    color: white;
+
+    border: none;
+
+    padding: 10px;
+
+    cursor: pointer;
+
+    z-index: 10;
+
+}
+
+.prev {
+
+    left: 10px;
+
+}
+
+.next {
+
+    right: 10px;
+
+}
+
+.dots {
+
+    position: absolute;
+
+    bottom: 10px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.dot {
+
+    height: 15px;
+
+    width: 15px;
+
+    margin: 0 5px;
+
+    background-color: #bbb;
+
+    border-radius: 50%;
+
+    display: inline-block;
+
+    cursor: pointer;
+
+}
+
+.active {
+
+    background-color: #717171;
+
+}
+
+</style>
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide" style="background-color: lightcoral;">Slide 1</div>
+            <div class="slide" style="background-color: lightblue;">Slide 2</div>
+            <div class="slide" style="background-color: lightgreen;">Slide 3</div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        <div class="dots">
+
+            <span class="dot" onclick="currentSlide(0)"></span>
+
+            <span class="dot" onclick="currentSlide(1)"></span>
+
+            <span class="dot" onclick="currentSlide(2)"></span>
+
+        </div>
+
+    </div>
+
+    <script>
+			let currentSlideIndex = 0;
+
+function moveSlide(direction) {
+
+    const slides = document.querySelector('.slides');
+
+    const totalSlides = document.querySelectorAll('.slide').length;
+
+    currentSlideIndex = (currentSlideIndex + direction + totalSlides) % totalSlides;
+
+    updateSlides();
+
+}
+
+function currentSlide(index) {
+
+    currentSlideIndex = index;
+
+    updateSlides();
+
+}
+
+function updateSlides() {
+
+    const slides = document.querySelector('.slides');
+
+    const dots = document.querySelectorAll('.dot');
+
+    	slides.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
+
+    dots.forEach((dot, index) => {
+
+        dot.className = dot.className.replace(' active', '');
+
+        if (index === currentSlideIndex) {
+
+            dot.className += ' active';
+
+        }
+
+    });
+
+}
+
+updateSlides();
+
+	</script>
+
+</body>
+
+</html>
+
+
+
+
+
